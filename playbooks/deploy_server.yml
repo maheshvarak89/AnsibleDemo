@@ -4,7 +4,7 @@
   gather_facts: False
   become: no
   vars_files:
-    - "../inventory/group_vars/env.yml"
+    - "../inventory/env.yml"
   tasks:
     #This task is neccessary to work with dynamic inventory and
     #provide group_vars before actually provisioning
